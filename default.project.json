@@ -1,0 +1,9 @@
+{
+  "name": "ReusableDoorController",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$path": "src/ServerScriptService"
+    }
+  }
+}
