@@ -1,40 +1,44 @@
-# Roblox reusable sliding-door controller
+# Cyber Escape Room
 
-This repository contains a small, practical Roblox server-side component for button-controlled sliding doors.
+Szkolna gra Roblox powiązana z planem informatyki SP4–SP8 i LO1–LO3.
 
-## What it does
-- discovers every model tagged `InteractiveDoor`;
-- validates the expected model structure before attaching handlers;
-- opens the door with `TweenService`;
-- ignores repeated clicks while a transition is running;
-- automatically closes the door after a configurable delay;
-- supports multiple independent doors with the same script.
+## Stan
+- 185 tematów z centralnego planu lekcji.
+- 0 tematów bez przypisanego typu gry.
+- Mechaniki: Decision, Sort, Collect, Sequence, Vault, Build, Hunt oraz PythonLab.
+- Osobne scenografie dla sprzętu komputerowego, sieci, WWW/CSS, baz danych, grafiki, robotyki i kodu.
+- Punkty, czas, hazard/firewall, checkpoint i brama końcowa.
+- Ranking leaderstats/Punkty.
 
-## Required model structure
-Each tagged model must contain:
-- a `BasePart` named `Door`;
-- a `BasePart` named `Button`;
-- a `ClickDetector` inside `Button`.
+## Uruchomienie lokalne
+1. Otwórz build/CyberEscapeRoom.rbxlx w Roblox Studio.
+2. Kliknij Play.
+3. Wybierz klasę i konkretny temat.
+4. Kliknij START MISJI.
+5. Wykonaj zadanie, pokonaj przeszkody i aktywuj bramę wyjścia.
 
-Configure behavior with model attributes:
-- `OpenDistance` (number, default `6`);
-- `OpenTime` (number, default `0.8`);
-- `AutoCloseDelay` (number, default `3`).
+## Python Lab
+Uczeń wpisuje kod w składni zbliżonej do Pythona, a serwer wykonuje bezpieczny, ograniczony podzbiór języka i steruje robotem na planszy.
 
-The door slides along its local X axis from the position it had when the controller attached.
-## Installation
-1. Put `DoorController.server.lua` in `ServerScriptService`.
-2. Create one or more door models using the structure above.
-3. Add the CollectionService tag `InteractiveDoor` to each model.
-4. Set optional attributes on the model.
-5. Run the place and click the button.
+Obsługiwane elementy:
+- move(n)
+- turn_left() / turn_right()
+- pickup() / drop()
+- print(...)
+- proste zmienne liczbowe, np. kroki = 2
+- for i in range(...): z jedną warstwą pętli
 
-The script is fully server-side, so the authoritative door state is not controlled by the client.
+Nie jest używany loadstring ani dowolne wykonywanie kodu. Parser odrzuca nieznane polecenia i ma limity długości programu, ruchu, range() oraz liczby poleceń.
 
-## Example
-A model with `OpenDistance = 8`, `OpenTime = 1.0`, and `AutoCloseDelay = 5` opens eight studs, takes one second to move, and closes five seconds later.
+## Walidacja
+- python tools/qa_priority.py
+- python tools/qa_curriculum.py
+- lune run tools/test_python_subset.luau
+- stylua --check <zmienione pliki .lua>
+- rojo build default.project.json -o build/CyberEscapeRoom.rbxlx
+- git diff --check
 
-## Project layout
-`default.project.json` is included for Rojo users, but the Lua file can also be copied directly into Roblox Studio.
+Warunek mapowania: LESSONS=185, GENERIC=0, MISSING_ARCHETYPE=0.
 
-This is application code, not lesson material. All names and values are generic and contain no environment-specific data.
+## Publikacja
+Nie publikować wersji z niezamkniętym Play Testem/regresją. Publikacja Roblox może wymagać aktywnej sesji konta i ewentualnego 2FA.

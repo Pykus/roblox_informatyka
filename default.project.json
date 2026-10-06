@@ -1,9 +1,17 @@
 {
-  "name": "ReusableDoorController",
+  "name": "CyberEscapeRoom",
   "tree": {
     "$className": "DataModel",
-    "ServerScriptService": {
-      "$path": "src/ServerScriptService"
+    "ReplicatedStorage": { "$path": "src/ReplicatedStorage" },
+    "AssetService": {
+      "$className": "AssetService",
+      "$properties": {
+        "AllowInsertFreeAssets": true
+      }
+    },
+    "ServerScriptService": { "$path": "src/ServerScriptService" },
+    "StarterPlayer": {
+      "StarterPlayerScripts": { "$path": "src/StarterPlayer/StarterPlayerScripts" }
     }
   }
 }

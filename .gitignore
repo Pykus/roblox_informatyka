@@ -1,0 +1,22 @@
+build/
+sourcemap.json
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+*.autosave
+*.recovery
+logs/
+screenshots/
+*.log
+*.png
+*.jpg
+*.jpeg
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Temporary Studio-only smoke harnesses must never enter checkpoints
+src/StarterPlayer/StarterPlayerScripts/StudioSmoke*.client.lua
+src/StarterPlayer/StarterPlayerScripts/StudioRelease*.client.lua
+src/ServerScriptService/StudioSmoke*.server.lua
