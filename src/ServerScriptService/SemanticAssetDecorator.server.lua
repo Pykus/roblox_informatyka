@@ -41,6 +41,18 @@ local EXACT = {
 	paint_studio_preview_monitor = "monitor",
 	paint_studio_keyboard = "keyboard",
 	paint_studio_mouse = "mouse",
+	kleki_operator_desk = "desk",
+	kleki_artist_tablet = "tablet",
+	kleki_preview_monitor = "monitor",
+	kleki_layer_control = "pushButton",
+	kleki_visibility_control = "toggleSwitch",
+	kleki_stroke_control = "pushButton",
+	kleki_export_printer = "printer",
+	ai_graphics_operator_desk = "desk",
+	ai_graphics_brief_scanner = "scanner",
+	ai_graphics_prompt_console = "controlConsole",
+	ai_graphics_improve_control = "pushButton",
+	ai_graphics_printer = "printer",
 	parameter_control_console = "controlConsole",
 	parameter_monitor = "monitor",
 	parameter_automation_rack = "serverRack",
@@ -250,6 +262,9 @@ local EXACT = {
 }
 
 local PREFIX = {
+	{ "kleki_palette_control_", "pushButton" },
+	{ "ai_graphics_token_control_", "pushButton" },
+	{ "ai_graphics_variant_monitor_", "monitor" },
 	{ "problem_measure_control_", "scanner" },
 	{ "problem_diagnosis_control_", "pushButton" },
 	{ "problem_repair_control_", "toggleSwitch" },
