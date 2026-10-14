@@ -62,6 +62,8 @@ local KlekiStudio = require(script.Parent:WaitForChild("KlekiStudio"))
 local AIGraphicsLab = require(script.Parent:WaitForChild("AIGraphicsLab"))
 local StopMotionStudio = require(script.Parent:WaitForChild("StopMotionStudio"))
 local TinkercadWorkshop = require(script.Parent:WaitForChild("TinkercadWorkshop"))
+local SchoolNewsroom = require(script.Parent:WaitForChild("SchoolNewsroom"))
+local ClipchampStudio = require(script.Parent:WaitForChild("ClipchampStudio"))
 local LayeredGraphicsTextLab = require(script.Parent:WaitForChild("LayeredGraphicsTextLab"))
 local TimelineMuseum = require(script.Parent:WaitForChild("TimelineMuseum"))
 local ChronoMuseum = require(script.Parent:WaitForChild("ChronoMuseum"))
@@ -2948,6 +2950,10 @@ function MissionEngine.Start(player, lesson, mission, remote)
 		StopMotionStudio.Run(model, origin, player, lesson, mission, remote, state, accent)
 	elseif mission.variant == "tinkercad_3d" then
 		TinkercadWorkshop.Run(model, origin, player, lesson, mission, remote, state, accent)
+	elseif mission.variant == "school_newspaper" then
+		SchoolNewsroom.Run(model, origin, player, lesson, mission, remote, state, accent)
+	elseif mission.variant == "clipchamp_video" then
+		ClipchampStudio.Run(model, origin, player, lesson, mission, remote, state, accent)
 	elseif mission.variant == "layered_graphics_text" then
 		LayeredGraphicsTextLab.Run(model, origin, player, lesson, mission, remote, state, accent)
 	elseif mission.variant == "timeline" then
