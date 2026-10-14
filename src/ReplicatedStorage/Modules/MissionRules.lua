@@ -121,6 +121,8 @@ local descriptions = {
 }
 
 local variantDescriptions = {
+	spreadsheet_problem = "Zamień problem na model arkusza: dane wejściowe, formuła, próba what-if i weryfikacja.",
+	chart_presentation = "Dobierz zakres i typ wykresu, dodaj tytuł i etykiety, odczytaj wniosek i opublikuj.",
 	school_newspaper = "Zaprojektuj dwustronicową gazetkę: okładka, artykuł, zdjęcie, nagłówek, numeracja, podgląd i druk.",
 	clipchamp_video = "Zmontuj film ze zdjęć: import, timeline, przejście, audio, podgląd i eksport.",
 	stop_motion = "Zbuduj krótką animację poklatkową: wykonaj klatki, ustaw tempo, sprawdź podgląd i eksport.",
