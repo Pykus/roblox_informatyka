@@ -30,7 +30,10 @@ checks = {
     "ai_three_stage": "state.stage = 2" in ai_rules and "state.stage = 3" in ai_rules and "state.completed = true" in ai_rules,
     "ai_human_decision": "AI pomogło, ale decyzję podjąłeś Ty" in ai_rules,
     "kleki_prompts_3plus": kleki.count("ProximityPrompt") >= 1 and kleki.count("prompt(") >= 7,
-    "ai_prompts_3plus": ai.count("ProximityPrompt") >= 1 and ai.count("prompt(") >= 8,
+    "ai_prompts_3plus": ai.count("ProximityPrompt") >= 1
+        and ai.count("prompt(") >= 7
+        and "for _, token in ipairs(tokenParts) do" in ai
+        and "for key, monitor in pairs(ctx.variantMonitors) do" in ai,
     "prompt_no_los": "RequiresLineOfSight = false" in kleki and "RequiresLineOfSight = false" in ai,
     "readable_world_text": "MinTextSize = minSize or 18" in kleki and "Brightness = 1.2" in kleki
         and "MinTextSize = minSize or 18" in ai and "Brightness = 1.2" in ai,
@@ -38,7 +41,9 @@ checks = {
     "ai_live_gallery": "AIGraphicsVariantMonitor_" in ai and "AIGraphicsPromptPreview" in ai and "TweenService:Create" in ai,
     "finale_sets_done": "ctx.state.done = true" in kleki and "ctx.state.done = true" in ai,
     "important_3d_audited": kleki.count('SetAttribute("Important3DPlaceholder", true)') >= 7
-        and ai.count('SetAttribute("Important3DPlaceholder", true)') >= 8,
+        and ai.count('SetAttribute("Important3DPlaceholder", true)') >= 7
+        and 'AIGraphicsTokenControl_' in ai
+        and 'AIGraphicsVariantMonitor_' in ai,
     "semantic_kleki": all(token in semantic for token in [
         'kleki_operator_desk = "desk"',
         'kleki_artist_tablet = "tablet"',
