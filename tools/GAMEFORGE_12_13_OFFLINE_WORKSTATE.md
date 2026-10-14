@@ -45,3 +45,16 @@ PP-HP-Touch jest offline w Remote Desktop Commander, więc ten plik jest buforem
 - 3D: semantic desk/laptop/speaker/projector screen/control console + przyciski; timeline i klipy są funkcjonalną geometrią.
 - Branch static QA: ALL_OK.
 - FULL E2E / kamera / runtime semantic load: PENDING — PP offline.
+
+
+## SP7/12 — Spreadsheet Problem Lab
+- Mechanika: 3 dane wejściowe → formuła kosztu → what-if → weryfikacja.
+- 3D: semantic laptop/desk/control console/monitor + kontrolki; fizyczny wynik i output gate reagują na model.
+- Branch static QA: ALL_OK.
+- FULL E2E / kamera / runtime semantic load: PENDING — PP offline.
+
+## SP7/13 — Chart Control Room
+- Mechanika: zakres → typ kolumnowy → tytuł → etykiety → wniosek → publikacja.
+- 3D: fizyczne słupki wykresu rosną na żywo; semantic scanner/monitor/console/desk/controls.
+- Branch static QA: ALL_OK.
+- FULL E2E / kamera / runtime semantic load: PENDING — PP offline.
