@@ -58,3 +58,16 @@ PP-HP-Touch jest offline w Remote Desktop Commander, więc ten plik jest buforem
 - 3D: fizyczne słupki wykresu rosną na żywo; semantic scanner/monitor/console/desk/controls.
 - Branch static QA: ALL_OK.
 - FULL E2E / kamera / runtime semantic load: PENDING — PP offline.
+
+
+## SP8/12 — Tech Evolution Gallery
+- Mechanika: mainframe → PC → internet → mobile/AI, potem 3 połączenia przełom→skutek.
+- 3D: semantic server rack/desktop/router/phone/shelf + kontrolki; oś czasu jest funkcjonalną scenografią.
+- Branch static QA: ALL_OK.
+- FULL E2E / kamera / runtime semantic load: PENDING — PP offline.
+
+## SP8/13 — Future Systems City
+- Mechanika: WORK/HOME/CITY → privacy → human control → simulation.
+- 3D: semantic robot/tablet/drone/toggle/control consoles; trzy fizyczne strefy miasta.
+- Branch static QA: ALL_OK.
+- FULL E2E / kamera / runtime semantic load: PENDING — PP offline.
