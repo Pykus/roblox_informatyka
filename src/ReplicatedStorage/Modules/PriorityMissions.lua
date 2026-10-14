@@ -63,6 +63,18 @@ PriorityMissions.Data = {
 			variant = "layered_graphics_text",
 			difficulty = 2,
 		},
+		[12] = {
+			type = "GraphicsLab",
+			name = "Stop-Motion Studio: klatka po klatce",
+			variant = "stop_motion",
+			difficulty = 2,
+		},
+		[13] = {
+			type = "GraphicsLab",
+			name = "Tinkercad Workshop: pierwszy model 3D",
+			variant = "tinkercad_3d",
+			difficulty = 2,
+		},
 	},
 	SP6 = {
 		[3] = { type = "CyberDefense", name = "Cyber Defense: fala zagrożeń", variant = "threats", difficulty = 2 },
