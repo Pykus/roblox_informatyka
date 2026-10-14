@@ -139,6 +139,18 @@ PriorityMissions.Data = {
 			variant = "python_practice",
 			difficulty = 2,
 		},
+		[12] = {
+			type = "SpreadsheetLab",
+			name = "Spreadsheet Problem Lab: model rozwiązania",
+			variant = "spreadsheet_problem",
+			difficulty = 2,
+		},
+		[13] = {
+			type = "DataFactory",
+			name = "Chart Control Room: czytelny wykres",
+			variant = "chart_presentation",
+			difficulty = 2,
+		},
 	},
 	SP8 = {
 		[3] = { type = "DataFactory", name = "Fabryka wykresów", variant = "charts", difficulty = 2 },
