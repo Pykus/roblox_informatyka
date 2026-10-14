@@ -24,6 +24,8 @@ Po zalogowaniu do Roblox Studio wykonaj w jednej instancji reprezentatywne testy
 | Foto | SP6/05 PhotoLab | kontrolki zmieniają obraz na żywo |
 | Scratch/block | SP6/07 Scratch Loop Grid | blok/zmienna steruje światem |
 | Prezentacja | SP6/09 Animation Lab | animacja i preview |
+| Gazetka szkolna | SP6/12 School Newsroom | okładka → artykuł → zdjęcie → strona 2 → nagłówek/numeracja → preview → druk; semantic laptop/scanner/monitor/printer/desk |
+| Montaż wideo | SP6/13 Clipchamp Studio | import 3 zdjęć → timeline 1→2→3 → przejście → audio → preview → eksport; semantic laptop/speaker/projector/console |
 | Finał mieszany | SP7/05 Cyber Escape Finale | algorytm + bity + bezpieczeństwo; 4 realne push-buttony algorytmu + 8 toggle-switchy bitów + 3 przyciski bezpieczeństwa + console/scanner/terminal (18/18 semantic assets) |
 | Robot/algorytm | SP7/08 Robot Rescue | energia + ładunek + trasa |
 | Python | SP7/10 Python Robot Dock | kod steruje realnym semantic robotem; server rack + control console; min. 3/3 semantic assets |
