@@ -1,7 +1,7 @@
 local PriorityMissions = {}
 
 PriorityMissions.AvailableFrom = 1
-PriorityMissions.AvailableTo = 11
+PriorityMissions.AvailableTo = 13
 PriorityMissions.AvailableFromByGrade = { SP4 = 3, SP5 = 3, SP6 = 3, SP7 = 3, SP8 = 3, LO1 = 3, LO2 = 1, LO3 = 1 }
 
 PriorityMissions.Data = {
@@ -23,6 +23,18 @@ PriorityMissions.Data = {
 			type = "GraphicsLab",
 			name = "AI Paint: od pomysłu do wydruku",
 			variant = "ai_paint_print",
+			difficulty = 2,
+		},
+		[12] = {
+			type = "GraphicsLab",
+			name = "Kleki Studio: warstwy i rysowanie online",
+			variant = "kleki_layers",
+			difficulty = 2,
+		},
+		[13] = {
+			type = "GraphicsLab",
+			name = "AI Graphics Lab: człowiek prowadzi AI",
+			variant = "ai_graphics",
 			difficulty = 2,
 		},
 	},
