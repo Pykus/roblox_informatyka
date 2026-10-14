@@ -28,6 +28,8 @@ Po zalogowaniu do Roblox Studio wykonaj w jednej instancji reprezentatywne testy
 | Montaż wideo | SP6/13 Clipchamp Studio | import 3 zdjęć → timeline 1→2→3 → przejście → audio → preview → eksport; semantic laptop/speaker/projector/console |
 | Finał mieszany | SP7/05 Cyber Escape Finale | algorytm + bity + bezpieczeństwo; 4 realne push-buttony algorytmu + 8 toggle-switchy bitów + 3 przyciski bezpieczeństwa + console/scanner/terminal (18/18 semantic assets) |
 | Robot/algorytm | SP7/08 Robot Rescue | energia + ładunek + trasa |
+| Problem w arkuszu | SP7/12 Spreadsheet Problem Lab | 3 dane wejściowe → formuła → what-if → weryfikacja; semantic laptop/console/monitor/controls |
+| Prezentacja danych | SP7/13 Chart Control Room | zakres → kolumny → tytuł/etykiety → wniosek → publikacja; fizyczne słupki + semantic scanner/monitor/console |
 | Python | SP7/10 Python Robot Dock | kod steruje realnym semantic robotem; server rack + control console; min. 3/3 semantic assets |
 | Dane/arkusz | SP8/04 Spreadsheet Factory | formuła zmienia linię produkcyjną |
 | Python / sensory | SP8/05 Python Robot Maze | realny semantic robot + sensor + lasery + server rack/control console; min. 3/3 semantic assets |
