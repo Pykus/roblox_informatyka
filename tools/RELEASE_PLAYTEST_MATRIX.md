@@ -38,6 +38,8 @@ Po zalogowaniu do Roblox Studio wykonaj w jednej instancji reprezentatywne testy
 | Search algorithm | SP8/08 Search Race | linear vs binary |
 | Sortowanie | SP8/09 Sorting Arena | porównanie + zamiana |
 | Media | SP8/10 Sports Newsroom | skan → wykres → kamera → publikacja |
+| Historia informatyki | SP8/12 Tech Evolution Gallery | mainframe→PC→internet→mobile/AI + 3 skutki; semantic rack/desktop/router/phone/shelf |
+| Informatyka 2035 | SP8/13 Future Systems City | WORK/HOME/CITY → privacy → human control → simulation; semantic robot/tablet/drone/console |
 | Dobór technologii | LO1/03 Language Port | manifest → dok → kontener |
 | Pierwsze polecenia Python | LO1/04 Python Command Yard | print("START") → move(2) → trzy polecenia sterują fizycznym wózkiem i robotem |
 | Zmienne w Pythonie | LO1/05 Parameter Lab | kalibracja → jedna zmienna steruje 2 siłownikami → reuse w trasie robota + realna konsola/monitor/szafa automatyki (3/3 semantic assets) |
