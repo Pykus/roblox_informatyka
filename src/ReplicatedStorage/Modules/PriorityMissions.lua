@@ -172,6 +172,18 @@ PriorityMissions.Data = {
 			variant = "screen_object_control",
 			difficulty = 3,
 		},
+		[12] = {
+			type = "TechHistory",
+			name = "Tech Evolution Gallery: rozwój informatyki",
+			variant = "tech_evolution",
+			difficulty = 2,
+		},
+		[13] = {
+			type = "ProjectQuest",
+			name = "Future Systems City: informatyka w życiu 2035",
+			variant = "future_systems",
+			difficulty = 2,
+		},
 	},
 	LO1 = {
 		[3] = { type = "CodeRepair", name = "Języki programowania", variant = "languages", difficulty = 2 },
