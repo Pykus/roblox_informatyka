@@ -53,6 +53,19 @@ local EXACT = {
 	ai_graphics_prompt_console = "controlConsole",
 	ai_graphics_improve_control = "pushButton",
 	ai_graphics_printer = "printer",
+	stop_motion_operator_desk = "desk",
+	stop_motion_camera = "camera",
+	stop_motion_robot = "robot",
+	stop_motion_timing_control = "toggleSwitch",
+	stop_motion_preview_screen = "projectorScreen",
+	stop_motion_export_console = "controlConsole",
+	tinkercad_operator_desk = "desk",
+	tinkercad_laptop = "laptop",
+	tinkercad_shape_rack = "shelf",
+	tinkercad_align_control = "pushButton",
+	tinkercad_group_control = "pushButton",
+	tinkercad_scale_control = "pushButton",
+	tinkercad_export_printer = "printer",
 	parameter_control_console = "controlConsole",
 	parameter_monitor = "monitor",
 	parameter_automation_rack = "serverRack",
@@ -262,6 +275,8 @@ local EXACT = {
 }
 
 local PREFIX = {
+	{ "stop_motion_shutter_control_", "pushButton" },
+	{ "tinkercad_shape_control_", "pushButton" },
 	{ "kleki_palette_control_", "pushButton" },
 	{ "ai_graphics_token_control_", "pushButton" },
 	{ "ai_graphics_variant_monitor_", "monitor" },
