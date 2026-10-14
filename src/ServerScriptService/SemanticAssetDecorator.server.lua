@@ -95,6 +95,17 @@ local EXACT = {
 	chart_labels_control = "toggleSwitch",
 	chart_compare_control = "pushButton",
 	chart_publish_console = "controlConsole",
+	tech_evolution_archive_shelf = "shelf",
+	tech_evolution_artifact_mainframe = "serverRack",
+	tech_evolution_artifact_pc = "desktop",
+	tech_evolution_artifact_internet = "router",
+	tech_evolution_artifact_mobile_ai = "phone",
+	future_work_robot = "robot",
+	future_home_tablet = "tablet",
+	future_city_drone = "drone",
+	future_privacy_control = "toggleSwitch",
+	future_human_console = "controlConsole",
+	future_simulation_console = "controlConsole",
 	parameter_control_console = "controlConsole",
 	parameter_monitor = "monitor",
 	parameter_automation_rack = "serverRack",
@@ -304,6 +315,7 @@ local EXACT = {
 }
 
 local PREFIX = {
+	{ "tech_evolution_link_control_", "pushButton" },
 	{ "spreadsheet_input_control_", "pushButton" },
 	{ "school_news_control_", "pushButton" },
 	{ "clipchamp_import_control_", "pushButton" },
