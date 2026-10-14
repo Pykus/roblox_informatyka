@@ -121,6 +121,8 @@ local descriptions = {
 }
 
 local variantDescriptions = {
+	kleki_layers = "Przygotuj rysunek w Kleki: pędzel, kolory, warstwy, podgląd i eksport.",
+	ai_graphics = "Zbuduj bezpieczny prompt, porównaj warianty AI, popraw go i świadomie zatwierdź wynik.",
 	ai_paint_print = "Stwórz pomysł z AI, popraw go w Paint i przygotuj wydruk.",
 	layered_graphics_text = "Zbuduj grafikę warstwową, dodaj czytelny tekst i uporządkuj kompozycję.",
 	document_table_graphics = "Utwórz dokument z tabelą i grafiką oraz uporządkuj układ.",
