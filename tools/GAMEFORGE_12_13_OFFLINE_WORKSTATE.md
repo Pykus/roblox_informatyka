@@ -32,3 +32,16 @@ PP-HP-Touch jest offline w Remote Desktop Commander, więc ten plik jest buforem
 - Sześcian, cylinder i klin są celowymi prymitywami edukacyjnymi (treść lekcji), a nie placeholderami do zastąpienia.
 - Branch static QA: ALL_OK.
 - FULL E2E / kamera / runtime semantic load: PENDING — PP offline.
+
+
+## SP6/12 — School Newsroom
+- Mechanika: okładka → artykuł → zdjęcie → strona 2 → nagłówek → numeracja → podgląd → druk.
+- 3D: semantic desk/laptop/scanner/monitor/printer + kontrolki; strony dokumentu są funkcjonalną geometrią.
+- Branch static QA: ALL_OK.
+- FULL E2E / kamera / runtime semantic load: PENDING — PP offline.
+
+## SP6/13 — Clipchamp Studio
+- Mechanika: import 3 zdjęć → timeline 1→2→3 → przejście → audio → preview → eksport.
+- 3D: semantic desk/laptop/speaker/projector screen/control console + przyciski; timeline i klipy są funkcjonalną geometrią.
+- Branch static QA: ALL_OK.
+- FULL E2E / kamera / runtime semantic load: PENDING — PP offline.
