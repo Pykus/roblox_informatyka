@@ -15,6 +15,8 @@ Po zalogowaniu do Roblox Studio wykonaj w jednej instancji reprezentatywne testy
 | Rysowanie online | SP4/12 Kleki Studio | pędzel → kolor → 3 kreski → warstwa 2 → widoczność → eksport; semantic desk/tablet/monitor/printer + realne kontrolki |
 | AI w grafice | SP4/13 AI Graphics Lab | brief → 3 składniki promptu → warianty A/B/C → iteracja → zatwierdzenie człowieka; semantic scanner/console/monitory/drukarka |
 | Historia/timeline | SP5/03 Timeline Museum | eksponat + ruch platformy |
+| Animacja poklatkowa | SP5/12 Stop-Motion Studio | 4 klatki w kolejności → tempo 4 kl./s → fizyczny preview → eksport; semantic camera/robot/desk/screen/controls |
+| Projektowanie 3D | SP5/13 Tinkercad Workshop | sześcian+cylinder+klin → align → group → scale → eksport; prymitywy są celową treścią lekcji, stanowisko używa semantic laptop/desk/shelf/printer |
 | Wyszukiwanie WWW | SP5/05 Search Escape | zapytanie otwiera właściwą drogę |
 | Problem solving | SP5/07 Factory | pomiar → diagnoza → naprawa |
 | Typing | SP5/08 Terminal Run | startowy terminal + widoczne UI + dokładność wpisu |
