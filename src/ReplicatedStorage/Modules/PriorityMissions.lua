@@ -96,6 +96,18 @@ PriorityMissions.Data = {
 			variant = "document_table_graphics",
 			difficulty = 2,
 		},
+		[12] = {
+			type = "DocumentRepair",
+			name = "School Newsroom: wielostronicowa gazetka",
+			variant = "school_newspaper",
+			difficulty = 2,
+		},
+		[13] = {
+			type = "VideoLab",
+			name = "Clipchamp Studio: film ze zdjęć",
+			variant = "clipchamp_video",
+			difficulty = 2,
+		},
 	},
 	SP7 = {
 		[3] = { type = "AlgorithmPath", name = "JavaBlock: algorytm w ruchu", variant = "javablock", difficulty = 2 },
