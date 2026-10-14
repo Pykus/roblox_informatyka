@@ -121,6 +121,8 @@ local descriptions = {
 }
 
 local variantDescriptions = {
+	school_newspaper = "Zaprojektuj dwustronicową gazetkę: okładka, artykuł, zdjęcie, nagłówek, numeracja, podgląd i druk.",
+	clipchamp_video = "Zmontuj film ze zdjęć: import, timeline, przejście, audio, podgląd i eksport.",
 	stop_motion = "Zbuduj krótką animację poklatkową: wykonaj klatki, ustaw tempo, sprawdź podgląd i eksport.",
 	tinkercad_3d = "Zbuduj pierwszy model 3D z prymitywów, wyrównaj elementy, zgrupuj je, ustaw skalę i eksportuj.",
 	kleki_layers = "Przygotuj rysunek w Kleki: pędzel, kolory, warstwy, podgląd i eksport.",
