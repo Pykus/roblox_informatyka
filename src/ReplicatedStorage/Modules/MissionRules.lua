@@ -121,6 +121,8 @@ local descriptions = {
 }
 
 local variantDescriptions = {
+	tech_evolution = "Napraw oś rozwoju informatyki i połącz przełomy technologiczne z ich skutkami.",
+	future_systems = "Uruchom systemy przyszłości dla pracy, domu i miasta, dodając prywatność oraz kontrolę człowieka.",
 	spreadsheet_problem = "Zamień problem na model arkusza: dane wejściowe, formuła, próba what-if i weryfikacja.",
 	chart_presentation = "Dobierz zakres i typ wykresu, dodaj tytuł i etykiety, odczytaj wniosek i opublikuj.",
 	school_newspaper = "Zaprojektuj dwustronicową gazetkę: okładka, artykuł, zdjęcie, nagłówek, numeracja, podgląd i druk.",
