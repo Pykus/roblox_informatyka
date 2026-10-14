@@ -66,6 +66,8 @@ local SchoolNewsroom = require(script.Parent:WaitForChild("SchoolNewsroom"))
 local ClipchampStudio = require(script.Parent:WaitForChild("ClipchampStudio"))
 local SpreadsheetProblemLab = require(script.Parent:WaitForChild("SpreadsheetProblemLab"))
 local ChartControlRoom = require(script.Parent:WaitForChild("ChartControlRoom"))
+local TechEvolutionGallery = require(script.Parent:WaitForChild("TechEvolutionGallery"))
+local FutureSystemsCity = require(script.Parent:WaitForChild("FutureSystemsCity"))
 local LayeredGraphicsTextLab = require(script.Parent:WaitForChild("LayeredGraphicsTextLab"))
 local TimelineMuseum = require(script.Parent:WaitForChild("TimelineMuseum"))
 local ChronoMuseum = require(script.Parent:WaitForChild("ChronoMuseum"))
@@ -2960,6 +2962,10 @@ function MissionEngine.Start(player, lesson, mission, remote)
 		SpreadsheetProblemLab.Run(model, origin, player, lesson, mission, remote, state, accent)
 	elseif mission.variant == "chart_presentation" then
 		ChartControlRoom.Run(model, origin, player, lesson, mission, remote, state, accent)
+	elseif mission.variant == "tech_evolution" then
+		TechEvolutionGallery.Run(model, origin, player, lesson, mission, remote, state, accent)
+	elseif mission.variant == "future_systems" then
+		FutureSystemsCity.Run(model, origin, player, lesson, mission, remote, state, accent)
 	elseif mission.variant == "layered_graphics_text" then
 		LayeredGraphicsTextLab.Run(model, origin, player, lesson, mission, remote, state, accent)
 	elseif mission.variant == "timeline" then
