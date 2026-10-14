@@ -12,6 +12,8 @@ Po zalogowaniu do Roblox Studio wykonaj w jednej instancji reprezentatywne testy
 | Cyberbezpieczeństwo | SP4/06 Cyber Defense | hasło → phishing → MFA |
 | Dowody/źródła | SP4/07 Newsroom | tablica dowodów + hamulec + realna kamera/biurko/monitor/skaner (4/4 semantic assets) |
 | Edytor grafiki | SP4/08 Paint Shapes | narzędzie → slot → live canvas + realne biurko/monitor/klawiatura/mysz (4/4 semantic assets) |
+| Rysowanie online | SP4/12 Kleki Studio | pędzel → kolor → 3 kreski → warstwa 2 → widoczność → eksport; semantic desk/tablet/monitor/printer + realne kontrolki |
+| AI w grafice | SP4/13 AI Graphics Lab | brief → 3 składniki promptu → warianty A/B/C → iteracja → zatwierdzenie człowieka; semantic scanner/console/monitory/drukarka |
 | Historia/timeline | SP5/03 Timeline Museum | eksponat + ruch platformy |
 | Wyszukiwanie WWW | SP5/05 Search Escape | zapytanie otwiera właściwą drogę |
 | Problem solving | SP5/07 Factory | pomiar → diagnoza → naprawa |
